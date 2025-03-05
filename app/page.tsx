@@ -7,7 +7,6 @@ import Grow from "./components/impact";
 export default function Home() {
   return (
     <div className="bg-[#fef9f8]">
-      <Header/>
       <HeroSection />
       <About />
       <Grow />

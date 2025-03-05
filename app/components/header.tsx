@@ -18,26 +18,26 @@ import logo from "../../public/logo1.png"
 
 const features = [
   {
-    name: 'Analytics',
-    href: '#',
+    name: 'Economic Importance',
+    href: '/Economic',
     description: 'Get a better understanding of where your traffic is coming from.',
     icon: ChartBarIcon,
   },
   {
-    name: 'Engagement',
-    href: '#',
+    name: 'Social Impact',
+    href: '/social',
     description: 'Speak directly to your customers in a more meaningful way.',
     icon: CursorArrowRaysIcon,
   },
-  { name: 'Security', href: '#', description: "Your customers' data will be safe and secure.", icon: ShieldCheckIcon },
+  { name: 'Addressing Burdens and Challenges', href: '#', description: "Your customers' data will be safe and secure.", icon: ShieldCheckIcon },
   {
-    name: 'Integrations',
+    name: 'Cultural Significance',
     href: '#',
     description: "Connect with third-party tools that you're already using.",
     icon: Squares2X2Icon,
   },
   {
-    name: 'Automations',
+    name: 'Financial Impact',
     href: '#',
     description: 'Build strategic funnels that will drive your customers to convert',
     icon: ArrowPathIcon,
@@ -76,12 +76,12 @@ const recentPosts = [
 
 export default function Header() {
   return (
-    <div className="relative bg-zinc-50">
-      <Popover className="relative bg-zinc-50 shadow-sm">
+    <div className="relative bg-[#fdfcfc]">
+      <Popover className="relative bg-[#fdfcfc] ">
         <div className="mx-auto max-w-7xl px-6">
           <div className="flex items-center justify-between py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
-              <a href="#">
+              <a href="/">
                 <img
                   alt=""
                   src={logo.src}
@@ -98,8 +98,8 @@ export default function Header() {
             </div>
             <PopoverGroup as="nav" className="hidden space-x-10 md:flex">
               <Popover className="relative">
-                <PopoverButton className="group inline-flex items-center rounded-md bg-white text-base font-medium text-gray-500 hover:text-gray-900 focus:ring-2 focus:ring-[#e69383] focus:ring-offset-2 focus:outline-hidden data-open:text-gray-900">
-                  <span>Solutions</span>
+                <PopoverButton className="group inline-flex items-center rounded-md text-base font-medium text-gray-500 hover:text-gray-900 focus:ring-2 focus:ring-[#e69383] focus:ring-offset-2 focus:outline-hidden data-open:text-gray-900">
+                  <span>About TCU</span>
                   <ChevronDownIcon
                     aria-hidden="true"
                     className="ml-2 size-5 text-gray-400 group-hover:text-gray-500 group-data-open:text-gray-600 group-data-open:group-hover:text-gray-500"
@@ -151,7 +151,7 @@ export default function Header() {
               </a>
 
               <Popover className="relative">
-                <PopoverButton className="group inline-flex items-center rounded-md bg-white text-base font-medium text-gray-500 hover:text-gray-900 focus:ring-2 focus:ring-[#e69383] focus:ring-offset-2 focus:outline-hidden data-open:text-gray-900">
+                <PopoverButton className="group inline-flex items-center rounded-md text-base font-medium text-gray-500 hover:text-gray-900 focus:ring-2 focus:ring-[#e69383] focus:ring-offset-2 focus:outline-hidden data-open:text-gray-900">
                   <span>More</span>
                   <ChevronDownIcon
                     aria-hidden="true"

@@ -56,7 +56,7 @@ export default function FeatureSection() {
       <div className="container">
         <div className="flex flex-col items-center text-center mb-12">
           <div className="inline-block text-red-400 py-1 text-md font-medium mb-4">Why TCU Matters</div>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 max-w-7xl">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           "Educating Underserved Girls"
           </h2>
         </div>
