@@ -143,75 +143,19 @@ export default function Header() {
                 </PopoverPanel>
               </Popover>
 
-              <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
-                Pricing
+              <a href="/Gallery" className="text-base font-medium text-gray-500 hover:text-gray-900">
+                Gallery
               </a>
               <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
                 Docs
               </a>
-
-              <Popover className="relative">
-                <PopoverButton className="group inline-flex items-center rounded-md text-base font-medium text-gray-500 hover:text-gray-900 focus:ring-2 focus:ring-[#e69383] focus:ring-offset-2 focus:outline-hidden data-open:text-gray-900">
-                  <span>More</span>
-                  <ChevronDownIcon
-                    aria-hidden="true"
-                    className="ml-2 size-5 text-gray-400 group-hover:text-gray-500 group-data-open:text-gray-600 group-data-open:group-hover:text-gray-500"
-                  />
-                </PopoverButton>
-
-                <PopoverPanel
-                  transition
-                  className="absolute left-1/2 z-10 mt-3 w-screen max-w-md -translate-x-1/2 transform px-2 transition data-closed:translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in sm:px-0"
-                >
-                  <div className="overflow-hidden rounded-lg ring-1 shadow-lg ring-black/5">
-                    <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                      {resources.map((item) => (
-                        <a
-                          key={item.name}
-                          href={item.href}
-                          className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
-                        >
-                          <item.icon aria-hidden="true" className="size-6 shrink-0 text-[#d76a55]" />
-                          <div className="ml-4">
-                            <p className="text-base font-medium text-gray-900">{item.name}</p>
-                            <p className="mt-1 text-sm text-gray-500">{item.description}</p>
-                          </div>
-                        </a>
-                      ))}
-                    </div>
-                    <div className="bg-gray-50 px-5 py-5 sm:px-8 sm:py-8">
-                      <div>
-                        <h3 className="text-base font-medium text-gray-500">Recent Posts</h3>
-                        <ul role="list" className="mt-4 space-y-4">
-                          {recentPosts.map((item) => (
-                            <li key={item.id} className="truncate text-base">
-                              <a href={item.href} className="font-medium text-gray-900 hover:text-gray-700">
-                                {item.name}
-                              </a>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                      <div className="mt-5 text-sm">
-                        <a href="#" className="font-medium text-[#d76a55] hover:text-[#e69383]">
-                          View all posts
-                          <span aria-hidden="true"> &rarr;</span>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </PopoverPanel>
-              </Popover>
             </PopoverGroup>
             <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
-              <a href="#" className="text-base font-medium whitespace-nowrap text-gray-500 hover:text-gray-900">
-                Sign in
-              </a>
               <a
                 href="#"
                 className="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-[#d76a55] px-4 py-2 text-base font-medium whitespace-nowrap text-white shadow-xs hover:bg-indigo-700"
               >
-                Sign up
+                Donate
               </a>
             </div>
           </div>
@@ -256,8 +200,8 @@ export default function Header() {
             </div>
             <div className="space-y-6 px-5 py-6">
               <div className="grid grid-cols-2 gap-x-8 gap-y-4">
-                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                  Pricing
+                <a href="/Gallery" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                  Gallery
                 </a>
 
                 <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">

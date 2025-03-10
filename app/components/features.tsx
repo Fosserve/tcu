@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Image from "next/image"
 import { cn } from "@/lib/utils"
-import img1 from "../../public/img1.jpg"
+import img1 from "../../public/woman-in-sari.jpg"
 import img2 from "../../public/img2.jpg"
 import img3 from "../../public/img3.jpg"
 import img4 from "../../public/img4.jpg"
@@ -77,7 +77,7 @@ export default function FeatureSection() {
                     <span className="sr-only">Feature icon</span>
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">{feature.title}</h3>
+                    <h3 className="text-3xl font-semibold text-gray-900 mb-2">{feature.title}</h3>
                     {activeFeature === feature.id && <p className="text-gray-600">{feature.description}</p>}
                   </div>
                 </div>

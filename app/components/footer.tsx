@@ -93,71 +93,46 @@ const navigation = {
   
   export default function FooterSection() {
     return (
-      <footer className="bg-[#f7d7d1] relative">
-        <img src={imagesvg.src}className="w-full bg-cover absolute"/>
-        <div className="mx-auto max-w-7xl px-6 py-16 sm:py-16 lg:px-8 lg:py-20">
-          <div className=" pt-12 xl:grid xl:grid-cols-3 xl:gap-8">
+      <footer className="bg-[#76d2b6] relative">
+        <img src={imagesvg.src}className="w-full bg-cover absolute z-10"/>
+  <img 
+    src="https://images.squarespace-cdn.com/content/v1/6376a066770641739c122b12/e58622ee-9408-41f7-adb3-ed5989b8e7ad/rise-up.png?format=1000w" 
+    className="absolute right-0 top-0 h-full object-cover mix-blend-screen"
+  />        <div className="mx-auto max-w-7xl px-6 py-16 sm:py-16 lg:px-8 lg:py-20">
+          <div className=" pt-12 flex justify-around flex-wrap md:flex-row flex-col xl:gap-8">
             <img
               alt="TCU"
               src={logo.src}
-              className="h- w-48"
+              className="h-24"
             />
-            <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-              <div className="md:grid md:grid-cols-2 md:gap-8">
+            <div className="flex justify-around flex-1 xl:mt-0 z-20">
                 <div>
-                  <h3 className="text-sm/6 font-semibold text-[#d76a55]">About TCU</h3>
-                  <ul role="list" className="mt-6 space-y-4">
+                  <h3 className="text-xl font-semibold text-[#d76a55]">About TCU</h3>
+                  <ul role="list" className="mt-5 space-y-4">
                     {navigation.About.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-sm/6 text-gray-600 hover:text-gray-900">
+                        <a href={item.href} className="text-sm/6 text-[#216455] hover:text-gray-900">
                           {item.name}
                         </a>
                       </li>
                     ))}
                   </ul>
-                </div>
-                <div className="mt-10 md:mt-0">
-                  <h3 className="text-sm/6 font-semibold text-[#d76a55]">Support</h3>
-                  <ul role="list" className="mt-6 space-y-4">
-                    {navigation.support.map((item) => (
-                      <li key={item.name}>
-                        <a href={item.href} className="text-sm/6 text-gray-600 hover:text-gray-900">
-                          {item.name}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
               </div>
-              <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 className="text-sm/6 font-semibold text-[#d76a55]">Company</h3>
-                  <ul role="list" className="mt-6 space-y-4">
+                  <h3 className="text-xl font-semibold text-[#d76a55]">Company</h3>
+                  <ul role="list" className="mt-5 space-y-4">
                     {navigation.company.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-sm/6 text-gray-600 hover:text-gray-900">
+                        <a href={item.href} className="text-sm/6 text-[#216455] hover:text-gray-900">
                           {item.name}
                         </a>
                       </li>
                     ))}
                   </ul>
                 </div>
-                <div className="mt-10 md:mt-0">
-                  <h3 className="text-sm/6 font-semibold text-[#d76a55]">Legal</h3>
-                  <ul role="list" className="mt-6 space-y-4">
-                    {navigation.legal.map((item) => (
-                      <li key={item.name}>
-                        <a href={item.href} className="text-sm/6 text-gray-600 hover:text-gray-900">
-                          {item.name}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
             </div>
           </div>
-          <div className="mt-12 border-t border-gray-900/10 pt-8 md:flex md:items-center md:justify-between">
+          <div className="mt-12 border-t border-gray-900/10 border-[#216455] pt-8 md:flex md:items-center md:justify-between z-25">
             <div className="flex gap-x-6 md:order-2">
               {navigation.social.map((item) => (
                 <a key={item.name} href={item.href} className="text-gray-600 hover:text-gray-800">
@@ -166,7 +141,7 @@ const navigation = {
                 </a>
               ))}
             </div>
-            <p className="mt-8 text-sm/6 text-gray-600 md:order-1 md:mt-0">
+            <p className="mt-8 text-sm/6 text-[#216455] md:order-1 md:mt-0">
               &copy; 2024 Talitha Cumi Unnati, Inc. All rights reserved.
             </p>
           </div>

@@ -9,7 +9,7 @@ export default function Home() {
     <div className="bg-[#fef9f8]">
       <HeroSection />
       <About />
-      <Grow />
+      {/* <Grow /> */}
       <FeatureSection />
 
     </div>
