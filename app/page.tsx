@@ -3,6 +3,7 @@ import FeatureSection from "./components/features";
 import Header from "./components/header";
 import HeroSection from "./components/hero_section";
 import Grow from "./components/impact";
+import AboutPage from "./About/page";
 
 export default function Home() {
   return (
