@@ -9,7 +9,6 @@ import {
 } from "@heroicons/react/20/solid";
 import aboutimage from "../../public/about.jpg";
 import structureImage from "../../public/structure.png";
-import { Lens } from "@/components/magicui/lens";
 
 const stats = [
   { label: "Study Grants Disbursed", value: "$120K" },

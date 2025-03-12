@@ -84,14 +84,15 @@ export default function AboutPage() {
           <div>
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Who we are</h2>
             <p className="text-base/7 text-gray-700 mt-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat.
+            To empower adolescent girls and women in India, especially those from underserved 
+communities, by expanding access to higher education and addressing systemic challenges 
+such as gender inequality, poverty, traditional taboos, domestic violence, and learning 
+disabilities.
             </p>
             <p className="text-base/7 text-gray-700 mt-4">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.
+            To create a society where every young Catholic girl, regardless of her circumstances, has the 
+opportunity to pursue higher education, realize her full potential, and contribute to reducing 
+societal issues.
             </p>
             <div className="border-t border-gray-200 mt-8 pt-8">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">What we do</h2>

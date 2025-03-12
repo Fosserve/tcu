@@ -64,7 +64,7 @@ export default function Header() {
               <a href="/Gallery" className="text-base font-medium text-gray-500 hover:text-gray-900">
                 Gallery
               </a>
-              <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              <a href="/OurWork" className="text-base font-medium text-gray-500 hover:text-gray-900">
                 Our Work
               </a>
             </PopoverGroup>
@@ -110,7 +110,7 @@ export default function Header() {
                 <a href="/Gallery" className="text-base font-medium text-gray-900 hover:text-gray-700 active:bg-rose">
                   Gallery
                 </a>
-                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                <a href="/OurWork" className="text-base font-medium text-gray-900 hover:text-gray-700">
                   Our Work
                 </a>
               </div>
