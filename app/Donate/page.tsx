@@ -50,7 +50,6 @@ const page = () => {
           />
         </div>
 
-        {/* Support information section */}
         <div className="w-full relative left-0 mt-4 top-0 md:top-[80px] md:left-[-80px] rounded-md md:w-2/3 bg-[#d4f3e7] border border-[#247d67] p-8 md:p-12 flex flex-col justify-center">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-10">
             <span className="text-[#333333]">Your Support Will </span>
